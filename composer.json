@@ -1,0 +1,51 @@
+{
+    "name": "iurigustavo/craft-livewire-bridge",
+    "description": "Render Craft CMS Blade templates as full-page Livewire 4 components, with Craft elements as component properties.",
+    "type": "craft-plugin",
+    "license": "MIT",
+    "keywords": [
+        "craftcms",
+        "craft-plugin",
+        "livewire",
+        "blade",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Iúri Gustavo",
+            "homepage": "https://github.com/iurigustavo"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/iurigustavo/craft-livewire-bridge/issues",
+        "source": "https://github.com/iurigustavo/craft-livewire-bridge",
+        "docs": "https://github.com/iurigustavo/craft-livewire-bridge#readme"
+    },
+    "require": {
+        "php": "^8.4",
+        "craftcms/cms": "^6.0.0-beta.1",
+        "livewire/livewire": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IuriGustavo\\LivewireBridge\\": "src/"
+        }
+    },
+    "extra": {
+        "handle": "livewire-bridge",
+        "name": "Livewire Bridge",
+        "class": "IuriGustavo\\LivewireBridge\\LivewireBridge",
+        "developer": "Iúri Gustavo",
+        "developerUrl": "https://github.com/iurigustavo",
+        "documentationUrl": "https://github.com/iurigustavo/craft-livewire-bridge#readme",
+        "changelogUrl": "https://raw.githubusercontent.com/iurigustavo/craft-livewire-bridge/main/CHANGELOG.md"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "craftcms/plugin-installer": true
+        }
+    }
+}
