@@ -1,6 +1,6 @@
 # Release Notes for Livewire Bridge
 
-## 1.0.0 - Unreleased
+## 1.0.0 - 2026-11-12
 
 ### Added
 - Craft-routed Blade templates that are Livewire single-file components are now mounted as full-page Livewire components.
