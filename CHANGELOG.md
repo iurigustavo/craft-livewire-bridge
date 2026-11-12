@@ -1,5 +1,10 @@
 # Release Notes for Livewire Bridge
 
+## 1.0.2 - 2026-11-12
+
+### Changed
+- Plugin Store screenshots now use an English UI.
+
 ## 1.0.1 - 2026-11-12
 
 ### Changed
