@@ -1,5 +1,12 @@
 # Release Notes for Livewire Bridge
 
+## 1.0.1 - 2026-11-12
+
+### Changed
+- New plugin icon.
+- Moved classes into `View` and `Synthesizers` namespaces.
+- Added screenshots to the README.
+
 ## 1.0.0 - 2026-11-12
 
 ### Added

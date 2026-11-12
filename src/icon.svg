@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#1c1917"/>
-  <path d="M10 40h14l6-16 6 16h18" fill="none" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M35 8 24 34h9l-3 22 13-30h-9l3-18z" fill="#fb70a9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="lwb-bolt" x1="40" y1="10" x2="60" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa3cf"/>
+      <stop offset="1" stop-color="#f0569b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#18181b"/>
+  <!-- bridge: arch, deck and piers -->
+  <path d="M15 74c5-19 18-30 35-30s30 11 35 30" stroke="#e4e4e7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M10 74h80" stroke="#e4e4e7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M15 74v12M85 74v12" stroke="#e5422b" stroke-width="7" stroke-linecap="round"/>
+  <!-- bolt -->
+  <path d="M58 8 34 50h15l-7 32 25-42H52l6-32z" fill="url(#lwb-bolt)" stroke="#18181b" stroke-width="4" stroke-linejoin="round"/>
 </svg>

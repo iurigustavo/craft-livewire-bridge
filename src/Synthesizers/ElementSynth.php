@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace IuriGustavo\LivewireBridge;
+namespace IuriGustavo\LivewireBridge\Synthesizers;
 
 use CraftCms\Cms\Element\Contracts\ElementInterface;
 use CraftCms\Cms\Support\Facades\Elements;

@@ -8,6 +8,8 @@ use CraftCms\Cms\Plugin\Plugin;
 use CraftCms\Cms\Support\Facades\Path;
 use CraftCms\Cms\Support\Facades\Template;
 use CraftCms\Cms\View\TemplateEngine;
+use IuriGustavo\LivewireBridge\Synthesizers\ElementSynth;
+use IuriGustavo\LivewireBridge\View\LivewireAwareBladeRenderer;
 use Livewire\Livewire;
 
 /**

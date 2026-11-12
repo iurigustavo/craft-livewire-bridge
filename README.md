@@ -2,6 +2,10 @@
 
 Use [Livewire 4](https://livewire.laravel.com) single-file components as Craft CMS 6 templates.
 
+> **Beta:** Craft CMS 6 is still in beta, so expect breaking changes until it's stable.
+
+![Livewire Bridge overview](docs/screenshots/01-overview.png)
+
 When Craft routes a request to a Blade template (an entry's URI, a section template, a custom route…) and that template is a Livewire single-file component, Livewire Bridge mounts it as a **full-page Livewire component** instead of rendering it as a plain view. Craft's template variables such as `$entry` are handed to the component, and Craft elements work as Livewire properties across requests.
 
 ## Requirements

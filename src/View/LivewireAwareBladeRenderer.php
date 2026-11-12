@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace IuriGustavo\LivewireBridge;
+namespace IuriGustavo\LivewireBridge\View;
 
 use CraftCms\Cms\Blade\BladeRenderer;
 use CraftCms\Cms\Support\Facades\Path;
 use CraftCms\Cms\View\TemplateMode;
+use IuriGustavo\LivewireBridge\LivewireBridge;
 use Livewire\Drawer\Utils;
 use Livewire\Features\SupportPageComponents\PageComponentConfig;
 use Livewire\Features\SupportPageComponents\SupportPageComponents;
